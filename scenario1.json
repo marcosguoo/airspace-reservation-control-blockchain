@@ -1,0 +1,184 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+    "account{1}": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+    "account{2}": "0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db",
+    "account{3}": "0x78731D3Ca6b7E34aC0F824c42a7cC18A495cabaB",
+    "account{4}": "0x617F2E2fD72FD9D5503197092aC168c91465E7f2"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1674398985169,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "contractName": "Auction",
+        "bytecode": "608060405234801561001057600080fd5b50610387806100206000396000f3fe608060405234801561001057600080fd5b506004361061004b5760003560e01c80623495a414610050578063454a2ab31461006e578063ed7a4e0b1461008a578063fe67a54b146100a8575b600080fd5b6100586100b2565b60405161006591906102b5565b60405180910390f35b6100886004803603810190610083919061026a565b6100dc565b005b61009261016e565b60405161009f91906102b5565b60405180910390f35b6100b0610194565b005b6000600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60025481116100ea57600080fd5b8060028190555033600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055507fdd0b6c6a77960e2066c96171b4d7ac9e8b4c184011f38544afa36a5bb63ec59f33826040516101639291906102d0565b60405180910390a150565b600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146101ec57600080fd5b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc479081150290604051600060405180830381858888f19350505050158015610252573d6000803e3d6000fd5b50565b6000813590506102648161033a565b92915050565b6000602082840312156102805761027f610335565b5b600061028e84828501610255565b91505092915050565b6102a0816102f9565b82525050565b6102af8161032b565b82525050565b60006020820190506102ca6000830184610297565b92915050565b60006040820190506102e56000830185610297565b6102f260208301846102a6565b9392505050565b60006103048261030b565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff82169050919050565b6000819050919050565b600080fd5b6103438161032b565b811461034e57600080fd5b5056fea2646970667358221220666c1e19a976559ea993a055090c9f2da6d255401cabdfe2e2ce037bc55c1b3164736f6c63430008070033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1674399334144,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "100"
+        ],
+        "name": "bid",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1674399358158,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "110"
+        ],
+        "name": "bid",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{2}"
+      }
+    },
+    {
+      "timestamp": 1674399366932,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "108"
+        ],
+        "name": "bid",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{3}"
+      }
+    },
+    {
+      "timestamp": 1674399389566,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "1080"
+        ],
+        "name": "bid",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{3}"
+      }
+    },
+    {
+      "timestamp": 1674399398492,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "130"
+        ],
+        "name": "bid",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{4}"
+      }
+    },
+    {
+      "timestamp": 1674399438021,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "endAuction",
+        "type": "function",
+        "to": "created{1674398985169}",
+        "abi": "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf",
+        "from": "account{4}"
+      }
+    }
+  ],
+  "abis": {
+    "0xd28572e247b57b9219b8cd414db89ce1014f0fdf337f2b5584e9f2f531d59cdf": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "_bid",
+            "type": "uint256"
+          }
+        ],
+        "name": "bid",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "endAuction",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": false,
+            "internalType": "address",
+            "name": "bidder",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "bid",
+            "type": "uint256"
+          }
+        ],
+        "name": "NewBid",
+        "type": "event"
+      },
+      {
+        "inputs": [],
+        "name": "getHighestBidder",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "winnerAddress",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
